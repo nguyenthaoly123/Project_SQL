@@ -111,7 +111,6 @@ where cast(date_added as date)>=DATEADD(year,-5,cast(GETDATE() as date))
 ### 7. Find All Movies/TV Shows by Director 'Rajiv Chilaka'
 
 ```sql
-select director from [Netflix Project].[dbo].[netflix_titles]
 select * 
 from [Netflix Project].[dbo].[netflix_titles]
 where director like'%Rajiv Chilaka%'
